@@ -1,13 +1,13 @@
-# SCD-Project : Fitness Club Website
+# SCD-Project: Fitness Club Website
 
 Welcome to the Fitness Club Website! This website aims to provide information about our fitness club, its services, and how to get in touch with us. 
 
 ## Collaborators
 This project was made possible thanks to the following collaborators:
-- **Muhammad Adil Memon** - Commit the index and form file.
-- **Arham Abbas** - Commit the Contact file.
-- **Muzammil Baig** - Commit the Service file
-- **Ali Muhammad** - Commit the about file.
+- **Muhammad Adil Memon (21SW035)** - Commit the index and form file.
+- **Arham Abbas (21SW150)** - Commit the Contact file.
+- **Muzammil Baig (21SW134)** - Commit the Service file
+- **Ali Muhammad (21SW153)** - Commit the about file.
 
 ## Technologies Used
 - HTML
