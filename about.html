@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Fitness Club</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        >
+        <img class="w-15 h-12 " src="/Images/logoo-removebg-preview.png" alt="">
+
+          <span class="ml-3 text-xl">Fitness Club</span>
+        </a>
+        <nav
+          class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center"
+        >
+        <a href="/index.html" class="mr-5 hover:text-white">Home</a>
+        <a href="/about.html" class="mr-5 hover:text-white">About</a>
+        <a href="/services.html" class="mr-5 hover:text-white">Services</a>
+        <a href="/contact.html" class="mr-5 hover:text-white">Contact</a>
+        </nav>
+        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" >
+          <a href="form.html"> Enroll Now</a>
+           <svg fill="none" stroke="currentColor" stroke-linecap="round"  stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1"  viewBox="0 0 24 24">
+           <path d="M5 12h14M12 5l7 7-7 7"></path>
+           </svg></button>
+      </div>
+    </header>
+
+    <!-- Statistics -->
+    <section class="text-gray-400 bg-gray-900 body-font" id="stat">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white"
+          >
+            Our Currrent Statistics
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              "At Fitness Club, we take pride in our impressive fitness statistics. With 50+ of members dedicated members and counting, our community is thriving. Our expert trainers have collectively conducted 100+ of classes or training sessions, ensuring personalized and effective workouts. We've witnessed remarkable transformations, with our members achieving an average of [percentage or number] improvement in their fitness levels. Join us in our success story – where goals are not just set, but surpassed. Your journey to fitness excellence begins here.
+          </p>
+        </div>
+        <div class="flex flex-wrap -m-4 text-center">
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+              <svg
+                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-white">2.7K</h2>
+              <p class="leading-relaxed">Downloads</p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+              <svg
+                fill="none" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" class="text-indigo-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-white">1.3K</h2>
+              <p class="leading-relaxed">Users</p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+              <svg
+                fill="none" stroke="currentColor" stroke-linecap="round"  stroke-linejoin="round" stroke-width="2" class="text-indigo-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z" ></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-white">10</h2>
+              <p class="leading-relaxed">Trainers</p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+              <svg
+                fill="none" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" class="text-indigo-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-white">6</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Testimonials -->
+      <section class="text-gray-600 body-font" id="feedback">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials
+          </h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path
+                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                  ></path>
+                </svg>
+                <p class="leading-relaxed mb-6">
+                    Joining Fitness Club was a game-changer for me. The motivating atmosphere, expert trainers, and supportive community make every workout enjoyable. I've seen significant improvements in my fitness level, and being part of this gym is truly empowering. It's more than just a gym; it's a fitness family that inspires and motivates!
+                </p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="/Images/img1.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Muhammad Daniyal</span >
+                    <span class="text-gray-500 text-sm">Software Developer</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036" >
+                  <path
+                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                  ></path>
+                </svg>
+                <p class="leading-relaxed mb-6">
+                    Fitness Club exceeded all my expectations! The atmosphere is invigorating, the trainers are exceptional, and the community support is unparalleled. Since joining, I've witnessed remarkable progress in my fitness journey. The diverse workout options and state-of-the-art equipment make every visit rewarding.I'm thrilled to be part of such a dynamic and motivating fitness community!
+                </p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="/Images/img.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900"
+                      >Naveed</span >
+                    <span class="text-gray-500 text-sm">Designer</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Pricing -->
+        <section
+        class="text-gray-400 bg-gray-900 body-font overflow-hidden"
+        id="prices"
+      >
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1
+              class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white"
+            >
+              Pricing
+            </h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              You won't regret once you get enrolled.
+            </p>
+            <div
+              class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6"
+            >
+              <button
+                class="py-1  px-4 bg-indigo-500 text-white focus:outline-none"
+              >
+                Monthly
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            </div>
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div
+                class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden"
+              >
+                <span
+                  class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+                  >POPULAR</span
+                >
+                <h2
+                  class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium"
+                >
+                  Basic
+                </h2>
+                <h1
+                  class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800"
+                >
+                  <span>3000Rs</span>
+                  <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+                </h1>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Cardio Machines
+                </p>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Steam Bath
+                </p>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Sauna Bath
+                </p>
+                <p class="flex items-center text-gray-400 mb-6">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Gym Machines
+                </p>
+                <button
+                  class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded"
+                >
+                <a href="form.html"> Subscribe Now</a>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-auto"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+                <p class="text-xs text-gray-400 mt-3">
+                  Literally you probably haven't heard of them getting perfectly fit and fine.
+                </p>
+              </div>
+            </div>
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div
+                class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden"
+              >
+                <h2
+                  class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium"
+                >
+                  PREMIUM
+                </h2>
+                <h1
+                  class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800"
+                >
+                  <span>7000Rs</span>
+                  <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+                </h1>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Personal Training
+                </p>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Diet Schedule
+                </p>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Cardio Machines
+                </p>
+                <p class="flex items-center text-gray-400 mb-2">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Steam Bath
+                </p>
+                <p class="flex items-center text-gray-400 mb-6">
+                  <span
+                    class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >Suana Bath
+                </p>
+                <p class="flex items-center text-gray-400 mb-6">
+                    <span
+                      class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0"
+                    >
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2.5"
+                        class="w-3 h-3"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg> </span
+                    >Gym Machines 
+                  </p>
+                <button
+                  class="flex  items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded"
+                >
+                <a href="form.html"> Subscribe Now</a>
+                
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-auto"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+                <p class="text-xs text-gray-400 mt-3">
+                  Literally you probably haven't heard of them getting perfectly fit and fine.
+                </p>
+              </div>
+            </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Footer -->
+    <footer class="text-gray-400 bg-gray-900 body-font" id="foot">
+        <div
+          class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+        >
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          >
+          <img class="w-15 h-12 " src="/Images/logoo-removebg-preview.png" alt="">
+
+            <span class="ml-3 text-xl">Fitness Club</span>
+          </a>
+          <p
+            class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+          >
+            © 2024 Fitness Club 
+          </p>
+          <span
+            class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+          >
+          <a href="https://www.facebook.com/aleemuhammad.lalani" class="text-gray-400">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/arham.abbas110?" class="ml-3 text-gray-400">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"  class="w-5 h-5" viewBox="0 0 24 24" >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" ></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/kaziadilmemon/" class="ml-3 text-gray-400">
+            <svg fill="currentColor" stroke-linecap="round"stroke-linejoin="round"
+            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+          </span>
+        </div>
+      </footer>
+
+  </body>
+</html>
