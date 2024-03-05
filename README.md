@@ -14,10 +14,10 @@ This project was made possible thanks to the following collaborators:
 - CSS (Tailwind CSS)
 
 ## Files Included
-- `index.html`: The homepage of the website, showcasing a brief introduction to the fitness club along with featured services.
-- `about.html`: Details about the history, mission, and values of the fitness club.
-- `contact.html`: Contact information and a contact form for users to get in touch with the fitness club.
-- `service.html`: Description of the services offered by the fitness club along with pricing details.
+- `index.html`: The homepage of the website, providing a brief introduction to the Fitness Club and highlighting featured services.
+- `about.html`: Delve into the history, mission, and values of the fitness club, including details about current tactics and pricing. Additionally, discover testimonials showcasing the reviews of satisfied customers.
+- `contact.html`: Contact information and a contact form for users to get in touch with the Fitness Club.
+- `service.html`: Description of the services offered by the fitness club.
 - `form.html`: A form where users can sign up for membership or request more information.
 
 ## Setup Instructions
